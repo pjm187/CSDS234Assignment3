@@ -17,7 +17,7 @@ INSERT INTO NurseNote(patient_id, address, note_text, visit_date) VALUES
 ('102', 'Akron, OH', 'persistent cough no fever', '2025-03-18'),
 ('103', 'Columbus, OH', 'vaccination follow-up mild fever', '2025-03-20');
 
--- Show inserted rows
+-- Show inserted rows in NurseNote
 SELECT * FROM NurseNote ORDER BY visit_date;
 
 -- Part b)
